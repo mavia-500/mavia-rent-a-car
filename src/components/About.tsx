@@ -38,10 +38,10 @@ const About = () => {
           <div>
             <p className="section-subtitle mb-4">About Us</p>
             <h2 className="section-title text-foreground mb-6">
-              About Al Buraq Rent A car & Tour
+              About asfar Rent A car & Tour
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Based in Islamabad, Al Buraq Rent A car & Tour is a trusted name
+              Based in Islamabad, asfar Rent A car & Tour is a trusted name
               in nationwide car rental services, offering safe, comfortable, and
               affordable travel solutions across Pakistan.
             </p>
@@ -65,7 +65,7 @@ const About = () => {
             </div>
 
             <a
-              href="https://wa.me/923200515737?text=can%20you%20share%20details%20about%20your%20services"
+              href="https://wa.me/923115758673?text=can%20you%20share%20details%20about%20your%20services"
               target="_blank"
               rel="noopener noreferrer"
             >

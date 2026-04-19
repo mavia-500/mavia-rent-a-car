@@ -1,7 +1,7 @@
 import React from "react";
 
 const WeddingEvents = () => {
-  const whatsappNumber = "+923200515737"; // replace with your number
+  const whatsappNumber = "+923115758673"; // replace with your number
   const message = encodeURIComponent(
     "Hi, I want details about wedding & event car rental services.",
   );
@@ -49,14 +49,25 @@ const WeddingEvents = () => {
           </ul>
 
           {/* WHATSAPP BUTTON */}
-          <a
-            href={`https://wa.me/${whatsappNumber}?text=${message}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl shadow-md transition"
-          >
-            Contact on WhatsApp
-          </a>
+          <div className="flex flex-col">
+            <a
+              href={`https://wa.me/923115758673?text=${message}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-fit inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl shadow-md transition"
+            >
+              Contact on WhatsApp
+            </a>
+
+            <a
+              href={`https://wa.me/923115758673?text=${message}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-fit mt-5 inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl shadow-md transition"
+            >
+              Get a Quote
+            </a>
+          </div>
         </div>
       </div>
     </section>

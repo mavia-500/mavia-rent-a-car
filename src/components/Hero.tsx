@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center text-secondary-foreground">
           <p className="section-subtitle justify-center mb-4">
-            Welcome to Al Buraq Rent A car & Tours
+            Welcome to asfar Rent A car & Tours
           </p>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wider leading-tight">

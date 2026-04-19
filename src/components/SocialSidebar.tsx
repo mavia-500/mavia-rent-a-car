@@ -36,7 +36,7 @@ const SocialSidebar = () => {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/+923200515737"
+        href="https://wa.me/+923115758673"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg hover:scale-110 transition-transform"

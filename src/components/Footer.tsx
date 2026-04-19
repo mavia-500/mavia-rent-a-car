@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
+import { FaTiktok } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-6">
-              <span className="text-2xl font-bold text-primary">AL BURAQ </span>
+              <span className="text-2xl font-bold text-primary">asfar </span>
               <span className="text-lg font-semibold ml-1">RENT A CAR</span>
               <p className="text-xs text-muted-foreground tracking-widest">
                 & TOUR
@@ -21,16 +22,22 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/asfar_rentacar?igsh=bTJxNHltNDlkb3Y="
                 className="w-10 h-10 bg-dark-light rounded-full flex items-center justify-center hover:bg-primary transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/share/1LbYLKhKx3/"
                 className="w-10 h-10 bg-dark-light rounded-full flex items-center justify-center hover:bg-primary transition-colors"
               >
                 <Facebook className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.tiktok.com/@user8235054145148?_r=1&_t=ZS-95fA8LpnrPd"
+                className="w-10 h-10 bg-dark-light rounded-full flex items-center justify-center hover:bg-primary transition-colors"
+              >
+                <FaTiktok className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -95,19 +102,19 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
                 <a
-                  href="tel:+923200515737"
+                  href="tel:+923115758673"
                   className="text-secondary-foreground/70 hover:text-primary transition-colors"
                 >
-                  +92 3200515737
+                  +92 3115758673
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
                 <a
-                  href="mailto:alburaqrentacar9@gmail.com"
+                  href="mailto:maviasajjadabbasi@gmail.com"
                   className="text-secondary-foreground/70 hover:text-primary transition-colors"
                 >
-                  alburaqrentacar9@gmail.com
+                  maviasajjadabbasi@gmail.com
                 </a>
               </li>
             </ul>
@@ -119,7 +126,7 @@ const Footer = () => {
       <div className="border-t border-dark-lighter">
         <div className="container mx-auto px-4 py-6">
           <p className="text-center text-secondary-foreground/50 text-sm">
-            © {new Date().getFullYear()} AL BURAQ RENT A CAR & Tour. All rights
+            © {new Date().getFullYear()} asfar RENT A CAR & Tour. All rights
             reserved.
           </p>
         </div>

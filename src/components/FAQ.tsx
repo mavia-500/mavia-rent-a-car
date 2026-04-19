@@ -7,7 +7,7 @@ import {
 
 const faqs = [
   {
-    question: "How can I book a car with Al Buraq Rent A car  & Tour?",
+    question: "How can I book a car with asfar Rent A car  & Tour?",
     answer: "You can book easily through our website, call, or WhatsApp. Just choose your vehicle, date, and location — we'll handle the rest."
   },
   {
